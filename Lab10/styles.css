@@ -1,0 +1,75 @@
+header{
+    background-image: url(images/studland.jpeg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    text-shadow: 2px 2px 2px black;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+
+main{
+    padding: 1rem;
+    max-width: 60rem;
+    margin: 1rem auto;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 0;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+nav>a:hover{
+    color: rgba(255, 255, 255, 0.513);
+}
+
+nav>a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: inline-block;
+    margin: 3rem;
+    font-weight: 900;
+}
+
+header img{
+    max-width: 50%;
+    margin: .5rem 0;
+    margin: 3rem;
+}
+
+.ourstory{
+    background-image: url(images/country.jpeg);
+    text-align: center;
+}
+
+.contact{
+    background-color: black;
+}
+
+.menu{
+    z-index: 5;
+    background-image: url(images/pub.jpeg);
+    display: flex;
+}
+
+section{
+    margin: 0;
+    text-shadow: 2px 2px 2px black;
+}
