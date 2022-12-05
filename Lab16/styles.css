@@ -253,7 +253,7 @@ footer{
     }
 
     .routes h3{
-
+        grid-area: 1 1 2 4;
     }
 
     form{
@@ -263,5 +263,6 @@ footer{
 
     footer{
         justify-content: space-between;
+        padding: .5rem 1rem;
     }
 }
