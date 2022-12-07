@@ -196,16 +196,16 @@ footer{
     }
 
     header nav a:hover{
-        font: #5bc0b4;
+        font: #5bc0b4;/*This should be color not font*/
         text-decoration: underline;
     }
 
     .social{
-        padding: right 2rem;
+        padding: right 2rem;/*This should be padding-right for the property name*/
     }
 
     h1{
-        margin: left -16rem;
+        margin: left -16rem;/*This should be margin-left for property name*/
     }
 
     .call-to-action{
@@ -214,7 +214,7 @@ footer{
 
     .call-to-action h2{
         font-size: 5rem;
-        margin: bottom 1rem;
+        margin: bottom 1rem;/*This should be margin-bottom for property name*/
     }
 
     p, h3{
@@ -253,7 +253,7 @@ footer{
     }
 
     .routes h3{
-        grid-area: 1 1 2 4;
+        grid-area: 1 1 2 4;/*In between the numbers you need / */
     }
 
     form{
